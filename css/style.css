@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-size: 16px;
+    color: black;
+    background-color: lightslategray;
+
+    font-family: cursive;
+    margin: 0;
+}
+
+header {
+    background-color: gray;
+}
+
+.navbar .navbar-expand-lg .navbar-light .bg-light {
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    font-family: sans-serif;
+    color: darkgray;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 40 px;
+}
+
+.container {
+    width: 100%!important;
+    
+}
+
+.box {
+    border: 1px solid black;
+    background-color: gray;
+    color: black;
+}
+
+.sticker {
+    width: 100px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 4px;
+    float: right;
+    font-weight: bold;
+}
+
+.text {
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.chiken {
+    background-color: pink;
+}
+
+.beef {
+    background-color: red;
+    color: #fff;
+}
+
+.sushi {
+    background-color: green;
+    color: #fff;
+}
+
+.top {
+    width: 100%;
+    text-align: right;
+    padding-right: 15px;
+}
+.toptop {
+    color: #3567a7;
+}
+.toptop:hover {
+    text-decoration: none;
+    color: #1d395d;
+}
+
+
+@media (min-width:992px) {
+
+    .container {
+        width: 100%!important;
+        max-width: 1400px!important;
+        clear: both;
+    }
+    .col-lg-4 {
+        float: left;
+    }
+
+    .col-lg-4:nth-child(1) {
+        margin: 3% 0 3% 0;
+       
+    }
+
+    .col-lg-4:nth-child(2) {
+        margin: 3% 0 3% 0;
+    
+    }
+
+    .col-lg-4:nth-child(3) {
+        margin: 3% 0 3% 0;
+    }
+}
+
+@media (max-width:991px) {
+
+    .container {
+    width: 100%!important;
+    max-width: 991px!important;
+    }
+
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        width: 100%;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+        }
+
+    li:nth-child(2) {
+        border: 1px solid black;
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .col-md-6 {
+        float: left;
+    }
+
+    .col-md-6:nth-child(1) {
+        margin: 3% 0 0 0;
+        
+    }
+
+    .col-md-6:nth-child(2) {
+        margin: 3% 0 0 0;
+    }
+
+    .col-md-6:nth-child(3) {
+        margin: 3% 0 3% 0;
+    }
+
+    .col-md-12 {
+        margin: 3% 0 3% 0;  
+        display: inline-block;
+    }
+
+}
+
+@media (max-width:767px){
+
+    .container {
+    width: 100%!important;
+    max-width: 767px!important;
+    }
+
+
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        width: 100%;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+        }
+
+    li:nth-child(2) {
+        border: 1px solid black;
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .col-sm-6 {
+        float: left;
+    }
+
+    .col-sm-6:nth-child(1) {
+        margin: 3% 0 0 0;
+        
+    }
+
+    .col-sm-6:nth-child(2) {
+        margin: 3% 0 0 0;
+       
+    }
+
+    .col-sm-6:nth-child(3) {
+        margin: 3% 0 3% 0;
+        
+    }
+
+    .col-sm-12 {
+        margin: 3% 0 3% 0;  
+        display: inline-block;
+    }
+}
+
+@media (max-width:575px) {
+
+    .navbar-brand h1 {
+        font-size: 1.1em!important;
+    }
+
+    .container {
+        width: 100%!important;
+        max-width: 567px!important;
+    }
+
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        width: 100%;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+    li:nth-child(2) {
+        border: 1px solid black;
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .col-xs-12 {
+        float: left;
+    }
+
+    .col-xs-12:nth-child(2) {
+        margin-top: 11px;
+    }
+
+    .col-xs-12:nth-child(3) {
+        margin-top: 11px;
+    }
+}
